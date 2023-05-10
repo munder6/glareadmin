@@ -1,0 +1,184 @@
+import 'package:flutter/material.dart';
+import 'package:glareadmin/core/constant/imageasset.dart';
+import 'package:lottie/lottie.dart';
+
+
+class LogoAuth extends StatelessWidget {
+  const LogoAuth({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.logo,height: 180,);
+  }
+}
+
+class Products extends StatelessWidget {
+  const Products({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.products,height: 180,);
+  }
+}
+
+class Messages extends StatelessWidget {
+  const Messages({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.messages,height: 180,);
+  }
+}
+
+class Customers extends StatelessWidget {
+  const Customers({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.customers,height: 180,);
+  }
+}
+
+class Notifications extends StatelessWidget {
+  const Notifications({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.notifications,height: 180,);
+  }
+}
+
+class Orders extends StatelessWidget {
+  const Orders({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.orders,height: 180,);
+  }
+}
+
+class Categories extends StatelessWidget {
+  const Categories({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.categories,height: 180,);
+  }
+}
+
+class Reports extends StatelessWidget {
+  const Reports({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.reports,height: 180,);
+  }
+}
+
+class LogoAuthSignUp extends StatelessWidget {
+  const LogoAuthSignUp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.logo,height: 70,);
+  }
+}
+
+class LogoAuthVerfiy extends StatelessWidget {
+  const LogoAuthVerfiy({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.verfiy,height: 220,);
+  }
+}
+
+
+class VerfiyEmailPhoto extends StatelessWidget {
+  const VerfiyEmailPhoto({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.verfiyemail,height: 250,);
+  }
+}
+
+
+class LogoResetPassword extends StatelessWidget {
+  const LogoResetPassword({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.resetpassword,height: 220,);
+  }
+}
+
+
+class Loading extends StatelessWidget {
+  const Loading({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.loading);
+  }
+}
+
+
+class NoData extends StatelessWidget {
+  const NoData({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.noData);
+  }
+}
+
+
+class Offline extends StatelessWidget {
+  const Offline({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.offline);
+  }
+}
+
+
+class ServerError extends StatelessWidget {
+  const ServerError({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.servererror);
+  }
+}
+
+
+class ChoseLang extends StatelessWidget {
+  const ChoseLang({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Lottie.asset(AppImageAsset.choseLang,height: 250, width: 250);
+  }
+}
+
+class AddAddressPhoto extends StatelessWidget {
+  const AddAddressPhoto({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Image.asset(AppImageAsset.address,height: 200,);
+  }
+}
+
+class CheckoutPhoto extends StatelessWidget {
+  const CheckoutPhoto({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Lottie.asset(AppImageAsset.onBoardingImageTwo,height: 300);
+  }
+}
+
+
